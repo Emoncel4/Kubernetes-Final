@@ -16,4 +16,4 @@ spec:
       - name: api-server-container
         image: emoncel/api-python:latest
         ports:
-        - containerPort: 5678
+        - containerPort: 8080
