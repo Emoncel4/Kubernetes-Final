@@ -5,7 +5,6 @@ metadata:
 data:
   init.sql: |
     CREATE TABLE IF NOT EXISTS reviews (
-      id SERIAL PRIMARY KEY,
       name TEXT,
       review TEXT
     );
