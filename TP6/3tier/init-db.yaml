@@ -6,11 +6,12 @@ data:
   init.sql: |
     CREATE TABLE IF NOT EXISTS reviews (
       id SERIAL PRIMARY KEY,
-      content TEXT
+      name TEXT,
+      review TEXT
     );
 
-    INSERT INTO reviews (content) VALUES
-    ('Imagine tu supprimes le pod de vs-code sans faire exprès'),
-    ('Nan je rigole'),
-    ('Mais imagine quand même'),
-    ('Oh non j'ai tué Python!');
+    INSERT INTO reviews (name, review) VALUES
+    ('Ada Lovelace', 'Imagine tu supprimes le pod de VS Code sans faire exprès'),
+    ('Alan Turing', 'Nan je rigole'),
+    ('Grace Hopper', 'Mais imagine quand même'),
+    ('Linus Torvalds', 'Oh non j ai tué Python!');

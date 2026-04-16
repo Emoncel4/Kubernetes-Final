@@ -49,10 +49,12 @@ spec:
   - metadata:
       name: postgres-data
     spec:
-      accessModes: [ "ReadWriteOnce" ]
+      accessModes:
+        - ReadWriteOnce
       resources:
         requests:
           storage: 1Gi
+
 ---
 apiVersion: v1
 kind: Service

@@ -4,5 +4,6 @@ Assez simple quand on regarde comment fonctionne les secrets. Juste à faire bie
 
 ## Mise en place d'un init container
 
+J'ai eu des problèmes pour identifier les colonnes de la base de données et j'ai dû rentrer dans les logs du pod pour voir pourquoi le post ne fonctionnait pas depuis le frontend.
 
 Note : je n'ai pas refaite les probes ici car déjà traitées au TP5 et je préférais repartir sur la base avec l'image docker fournie au TP3. 
