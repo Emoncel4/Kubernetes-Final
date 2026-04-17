@@ -19,3 +19,5 @@ Aucun soucis une nouvelle fois. J'ai pû observer que les messages dans le termi
 ![](screenshot/happy_helming.png)
 
 Note : pour ce tp j'ai lancé uniquement le backend et la base postgres. Le reste des deployements, services et pods des tps précédents étaient désactivés. J'ignore donc si l'intégration dans structure globale est parfaite mais théoriquement vu que les valeurs utilisées sont les mêmes il ne devrait pas y avoir de soucis à ce niveau là. 
+
+PS : J'ai refait un dernier commit pcq les fichiers que j'avais supprimé au début sont revenus et les valeurs des fichiers values ont été réinitialisées sans que je m'en rende compte (jsp d'où ça vient). Au moment du nettoyage peut être ? 
