@@ -18,4 +18,4 @@ J'avoue que les probes que j'ai gardé dans les values et le template empêche u
 Aucun soucis une nouvelle fois. J'ai pû observer que les messages dans le terminal de helm étaient très motivants. Happy Helming ! 
 ![](screenshot/happy_helming.png)
 
-Note : pour ce tp j'ai lancé uniquement le backend la la base postgres le reste des deployements, services et pods des tps précédents ayant été désactivés. J'ignore donc si l'intégration dans structure globale est parfaite mais théoriquement vu que les valeurs utilisées sont les mêmes il ne devrait pas y avoir de soucis à ce niveau là. 
+Note : pour ce tp j'ai lancé uniquement le backend et la base postgres. Le reste des deployements, services et pods des tps précédents étaient désactivés. J'ignore donc si l'intégration dans structure globale est parfaite mais théoriquement vu que les valeurs utilisées sont les mêmes il ne devrait pas y avoir de soucis à ce niveau là. 
